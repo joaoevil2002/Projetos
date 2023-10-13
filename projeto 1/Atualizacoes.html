@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apenas...</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        color: white;
+        font-family: sans-serif;
+    }
+    #Fundo {
+        padding: 50px;
+        border-width: 4px;
+        border-style: solid;
+        border-image: linear-gradient(to right, white , rgb(0, 23, 97)) 1;
+        animation:rotate 2.5s ease-in infinite;
+    }
+    .Apenas {
+        font-family: serif;
+        font-size: 100px;
+        text-transform: uppercase;
+        color: black;
+        font-style: oblique -25deg;
+        text-shadow: 2px 2px #fff;
+        margin: 400px;
+    }
+    .list {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        text-align: justify;
+        text-indent: 250px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .list li a {
+        color: white;
+        font-family: sans-serif;
+        text-transform: uppercase;
+    }
+    .list li a:hover {
+        border-style: solid;
+        border-color: rgb(0, 0, 255);
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 3, 168);
+    }
+    @keyframes rotate {
+        50% {
+            border-image: linear-gradient(to right, rgb(0, 23, 97) , white) 1;
+        }
+    }
+    @media (max-width: 968px) and (min-width: 300px) {
+        .Apenas {
+            font-size: 64px;
+            margin: 0px;
+        }
+        .list {
+        display: flex;
+        list-style: none;
+        gap: 13px;
+        text-align: justify;
+        text-indent: 20px;
+        }
+    }
+</style>
+<body bgcolor="black">
+    <!-- Tudo que tá aqui é por pura diversão. Ok? -->
+    <div id="Fundo" style="background: rgb(0, 60, 255);">
+        <a class="Apenas" href="#">Apenas...</a>
+    </div>
+    <div id="list-home">
+        <ul class="list">
+            <li><a href="Inicio.html">Inicio</a></li>
+            <li><a href="Atualizacoes.html">Atualizaçoes</a></li>
+            <li><a href="Sobre.html">Sobre</a></li>
+        </ul>
+</div>

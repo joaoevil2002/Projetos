@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apenas...</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        color: white;
+        font-family: sans-serif;
+    }
+    #Fundo {
+        border-width: 4px;
+        border-style: solid;
+        border-image: linear-gradient(to right, white , rgb(0, 23, 97)) 1;
+        animation:rotate 2.5s ease-in infinite;
+    }
+    .Apenas {
+        font-family: serif;
+        font-size: 100px;
+        text-transform: uppercase;
+        color: black;
+        font-style: oblique -25deg;
+        text-shadow: 2px 2px #fff;
+        margin: 440px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .Regristro {
+        margin: 150px;
+        color: #fff;
+        border-style: ridge;
+    }
+    @keyframes rotate {
+        50% {
+            border-image: linear-gradient(to right, rgb(0, 23, 97) , white) 1;
+        }
+    }
+    @media (min-width: 360px) and (max-width: 760px) {
+        .Apenas {
+            font-size: 64px;
+            margin: 0px;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .Apenas {
+            font-size: 64px;
+            margin: 240px;
+        }
+        }
+    @media (min-width: 320px) and (max-width: 480px) {
+        .Apenas {
+            font-size: 56px;
+            margin: 40px;
+        }
+    }
+</style>
+<body bgcolor="black">
+    <!-- Tudo que tá aqui é por pura diversão. Ok? -->
+    <div id="Fundo" style="background: rgb(0, 60, 255);">
+        <a class="Apenas" href="A.html">Apenas...</a>
+    </div>
+    <div class="Regristro">
+        <p>
+            <label for="Informacoes:">
+                Usuario:
+                <input type="text" id="Usuario:" name="Usuario:">
+                <br>E-mail:
+                <input type="text" id="E-mail" name="E-mail">
+                <br>Senha:
+                <input type="text" id="Senha" name="Senha">
+                <br>Genero:
+                Masculino<input type="radio" id="Masculino" name="Masculino">
+                Feminino<input type="radio" id="Feminino" name="Feminino">
+
+        </p>
+            </label>
+            <p>
+                <button type="submit">Enviar</button>
+            </p>
+    </div>
