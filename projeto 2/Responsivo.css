@@ -1,0 +1,196 @@
+@media (max-width: 767px) {
+    body {
+    height: 2000px;
+    max-width:100%;
+    }
+    #menu {
+    width: 420px;
+    max-width:100%;
+    }
+    .logo {
+    left: -50px;
+    max-width:100%;
+    }
+    .cria-cardapio {
+    left: 71%;
+    max-width:100%;
+    }
+    .zapfones {
+    position: absolute;
+    left: 1%;
+    top: 12%;
+    max-width:100%;
+    max-height:950px;
+    width: auto;
+    height: auto;
+    }
+    #feliz h1 {
+    font-size: 1px;
+    max-width:100%;
+    }
+    .registra2 {
+    font-size: 35px;
+    position: absolute;
+    left: 3%;
+    top: 92%;
+    max-width:100%;
+    max-height:950px;
+    width: auto;
+    height: auto;
+    }
+    .dollar {
+    position: absolute;
+    left: 34%;
+    top: 107%;
+    max-width:100%;
+    max-height:140px;
+    width: auto;
+    height: auto;
+    }
+    .star {
+    position: absolute;
+    left: 34%;
+    top: 150%;
+    max-width:100%;
+    max-height:140px;
+    width: auto;
+    height: auto;
+    }
+    .clock {
+    position: absolute;
+    left: 34%;
+    top: 190%;
+    max-width:100%;
+    max-height:140px;
+    width: auto;
+    height: auto;
+    }
+    .elemento-inline-dollar {
+    position: absolute;
+    left: 2%;
+    top: 105%;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    max-width:100%;
+    }
+    .elemento-inline-star {
+    position: absolute;
+    left: 8%;
+    top: 170%;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    max-width:100%;
+    }
+    .elemento-inline-clock {
+    position: absolute;
+    left: 8%;
+    top: 210%;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    max-width:100%;
+    }
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+    body {
+    height: 2000px;
+    max-width:100%;
+    }
+    #menu {
+    width: 420px;
+    max-width:100%;
+    }
+    .logo {
+    left: -50px;
+    max-width:100%;
+    }
+    .cria-cardapio {
+    left: 71%;
+    max-width:100%;
+    }
+    .zapfones {
+    position: absolute;
+    left: 1%;
+    top: 12%;
+    max-width:100%;
+    max-height:950px;
+    width: auto;
+    height: auto;
+    }
+    #feliz h1 {
+    font-size: 1px;
+    max-width:100%;
+    }
+    .registra2 {
+    font-size: 35px;
+    position: absolute;
+    left: 3%;
+    top: 92%;
+    max-width:100%;
+    max-height:950px;
+    width: auto;
+    height: auto;
+    }
+    .dollar {
+    position: absolute;
+    left: 34%;
+    top: 107%;
+    max-width:100%;
+    max-height:140px;
+    width: auto;
+    height: auto;
+    }
+    .star {
+    position: absolute;
+    left: 34%;
+    top: 150%;
+    max-width:100%;
+    max-height:140px;
+    width: auto;
+    height: auto;
+    }
+    .clock {
+    position: absolute;
+    left: 34%;
+    top: 190%;
+    max-width:100%;
+    max-height:140px;
+    width: auto;
+    height: auto;
+    }
+    .elemento-inline-dollar {
+    position: absolute;
+    left: 2%;
+    top: 105%;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    max-width:100%;
+    }
+    .elemento-inline-star {
+    position: absolute;
+    left: 8%;
+    top: 170%;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    max-width:100%;
+    }
+    .elemento-inline-clock {
+    position: absolute;
+    left: 8%;
+    top: 210%;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    max-width:100%;
+    }
+}
