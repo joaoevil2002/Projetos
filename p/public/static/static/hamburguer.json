@@ -1,0 +1,39 @@
+[
+    {
+      "id": "9507779N",
+      "name": "carne",
+      "price": "R$ 32.00",
+      "oldPrice": "40.00",
+      "image": "https://www.sondadelivery.com.br/img.aspx/sku/1000037111/530/7894904237999_5.png"
+    },
+    {
+      "id": "92601102",
+      "name": "frango",
+      "price": "R$ 20.00",
+      "oldPrice": "25.00",
+      "image": "https://fburguer.pt/wp-content/uploads/2021/02/hamb-frango-V8-e1614277808825-800x800.jpg"
+    },
+    {
+      "id": "9465450R",
+      "name": "2 carnes",
+      "price": "R$ 25.00",
+      "oldPrice": "45.00",
+      "image": "https://www.infomoney.com.br/wp-content/uploads/2019/06/mcdonalds-qu4troi-fromaggi.png?fit=500%2C451&quality=50&strip=all"
+    },
+    {
+      "id": "95004531",
+      "name": "quatro queijos",
+      "price": "R$ 20.00",
+      "oldPrice": "35.00",
+      "image": "https://img.freepik.com/fotos-gratis/hamburguer-saboroso-isolado-no-fundo-branco-fastfood-de-hamburguer-fresco-com-carne-e-queijo_90220-1063.jpg"
+    },
+    {
+      "id": "94672705",
+      "name": "vegano",
+      "price": "R$ 37.00",
+      "oldPrice": "48.00",
+      "image": "https://img.freepik.com/fotos-premium/hamburguer-vegetariano-com-hamburguer-de-costeleta-em-fundo-branco-isolado_124507-25597.jpg"
+    }
+   
+    
+  ]
