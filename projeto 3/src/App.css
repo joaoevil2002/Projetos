@@ -63,7 +63,7 @@ main {
   top: 0;
   left: 0;
   bottom: 0;
-  background: #000;
+  background: #a39090;
   color: #fff;
   overflow-y: auto;
   z-index: 100;
@@ -101,4 +101,9 @@ main {
 }
 .icon, .link_text {
   font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+  }
 }

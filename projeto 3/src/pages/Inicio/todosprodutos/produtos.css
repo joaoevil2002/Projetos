@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  width: 120vh;
+}
+
+.container .search p {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: yellow;
+}
+
+.container .carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.container .carousel .item {
+  background-color: #fff;
+  margin-right: 10px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 8px;
+  flex: none;
+}
+
+.container .carousel .item .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.container .carousel .item .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 160px;
+  padding: 10px 0;
+}
+
+.container .carousel .item .info span {
+  display: block;
+  text-align: center;
+  color: #000;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.container .carousel .item .info .name {
+  font-size: 1.0rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+}
+
+.container .carousel .item .info .oldPrice {
+  font-size: 0.8rem;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  color: #f00202;
+}
+
+.container .carousel .item .info .price {
+  font-size: 1.0rem;
+  font-weight: bold;
+}
+
+.container .carousel .item .info .button {
+  margin-top: 5px;
+  padding: 0;
+  font-weight: bold;
+  background-color: #f00202;
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+  height: 40px;
+}
+
+.container .carousel .item .info .button:hover {
+  opacity: 50%;
+  height: 45px;
+}
+
+.container .buttons {
+  text-align: center;
+  width: 100%;
+}
+
+.container .buttons button {
+  background-color: red;
+  border: none;
+  cursor: pointer;
+}
+
+.container .buttons button:first-child img {
+  transform: rotate(180deg);
+}
+
+.Doll {
+  background-size: 100% 100%;
+}
+
+.containerPromo {
+  max-width: 1440px;
+  position: relative;
+  left: 330px;
+}
+
+.carouselPromo {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 31vh;
+}
+
+.containerPromo .carouselPromo .V .Doll img {
+  height: 100%;
+  object-fit: fill;
+  border-radius: 6px;
+}
