@@ -1,14 +1,14 @@
 body {
-  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #000;
   color: #fff;
+  
 }
 
 .container {
-  width: 120vh;
+  width: 103vh;
 }
 
 .container .search p {
@@ -114,13 +114,12 @@ body {
 .containerPromo {
   max-width: 1440px;
   position: relative;
-  left: 330px;
+  left: 250px;
 }
 
 .carouselPromo {
   display: flex;
   overflow-x: auto;
-  scroll-behavior: smooth;
   width: 31vh;
 }
 

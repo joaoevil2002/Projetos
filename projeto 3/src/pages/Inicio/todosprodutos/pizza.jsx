@@ -22,7 +22,7 @@ function Pizza() {
           return (
             <div className="item" key={id}>
               <div className="image">
-                <img src={image} alt={name} />
+                <img src={image} alt={name} loading="lazy"/>
               </div>
               <div className="info">
                 <span className="name">{name}</span>
