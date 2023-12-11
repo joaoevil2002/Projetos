@@ -1,0 +1,46 @@
+/* Favoritos.css */
+
+.favorites-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .favorites-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .favorites-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .favorite-item {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heart-icon {
+    cursor: pointer;
+  }
+  
+  .info {
+    margin-top: 10px;
+  }
+  
+  .name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .category {
+    color: #777;
+  }
+  
